@@ -1,0 +1,21 @@
+#header{
+    height: 100px;
+    
+}
+#header .logo{
+    display: inline-block;
+    width: 25%;
+    background-color: aqua;
+    height: 100%;
+    text-align: center;
+    line-height: 100px;
+}
+#header .nav{
+    display: inline-block;
+    width: 73%;
+    background-color: yellow;
+    height: 100%;
+    text-align: center;
+    line-height: 100px;
+    
+}

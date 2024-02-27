@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Name Input Form</title>
+  <style>
+    .form-container {
+      text-align: center;
+      margin: 20px;
+    }
+
+    .input-group {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .input-group input {
+      margin: 0 10px;
+      padding: 8px;
+      width: 150px;
+      box-sizing: border-box;
+    }
+
+    .output-container {
+      margin-top: 20px;
+    }
+
+    .output-text {
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+<div class="form-container">
+  <h2>Enter First and Last Name</h2>
+  <div class="input-group">
+    <input type="text" id="firstName" placeholder="First Name" oninput="updateOutput()">
+    <input type="text" id="lastName" placeholder="Last Name" oninput="updateOutput()">
+  </div>
+  
+  <div class="output-container">
+    <p id="output" class="output-text"></p>
+  </div>
+</div>
+
+<script>
+  function updateOutput() {
+    const firstName = document.getElementById('firstName').value;
+    const lastName = document.getElementById('lastName').value;
+    const output = document.getElementById('output');
+    
+    output.textContent = `Full Name: ${firstName} ${lastName}`;
+  }
+</script>
+
+</body>
+</html>

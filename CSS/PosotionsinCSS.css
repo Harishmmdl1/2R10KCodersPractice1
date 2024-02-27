@@ -1,0 +1,28 @@
+#position-parent {
+  background-color: black;
+  padding: 30px;
+}
+#position-parent .child {
+  font-size: 30px;
+  padding: 5px;
+}
+#position-parent .static {
+  background-color: bisque;
+  position: static;
+}
+#position-parent .relative {
+  background-color: rgb(235, 25, 74);
+  position: relative;
+}
+#position-parent .absolute {
+    background-color: rgb(10, 55, 179);
+    /* position: absolute;
+    bottom: 10px; */
+}
+#position-parent .fixed {
+    background-color: rgb(9, 186, 193);
+    position: fixed;
+}
+#position-parent .sticky {
+  background-color: rgb(131, 206, 11);
+}

@@ -1,0 +1,26 @@
+#Combinator_parent{
+    background-color: aqua;
+    color: blue;
+}
+/* #Combinator_parent>.Combinator_level1{
+    background-color: blueviolet;
+    color: bisque;
+} */
+#Combinator_parent .Combinator_level3{
+    background-color: firebrick;
+    color: forestgreen;
+}
+#Combinator_parent .Combinator_level2{
+    background-color: hotpink;
+    color: khaki;
+}
+
+.Child_1~.Child{
+    background-color: darkcyan;
+    color: hotpink;
+}
+.Child_1+.Child{
+    background-color: chartreuse;
+    color: brown;
+}
+

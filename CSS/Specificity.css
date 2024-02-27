@@ -1,0 +1,14 @@
+#specificity_id{
+    background-color: firebrick;
+}
+.specificity_class{
+    background-color: darksalmon;
+}
+h1{
+    
+    background-color: aquamarine;
+}
+*{
+    background-color: darkblue;
+
+}

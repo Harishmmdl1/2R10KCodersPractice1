@@ -1,0 +1,54 @@
+#frnds li:first-child{
+    color: bisque;
+    background-color: aqua;
+}
+#frnds li:last-child{
+    color: navajowhite;
+    background-color: hotpink;
+}
+#frnds li:nth-child(3){
+    color: cadetblue;
+    background-color: saddlebrown;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: brown;
+    background-color: aquamarine;
+}
+
+h2::first-letter{
+    color: brown;
+    font-weight: 1000;
+}
+p::first-letter{
+    color: gold;
+    font-size: 30px;
+    font-weight: 600;
+}
+p::first-line{
+    color: saddlebrown;
+    font-size: 20px;
+    font-weight: 500;
+}
+p::selection{
+    color: blueviolet;
+    background-color: aqua;
+}
+p::before{
+    content: url(../accets/Images/human-brain.png);
+}
+p::after{
+    content: url(../accets/Images/worried-person.webp);
+}
+/* [data-toggle]{
+    color: blue;
+    background-color: chartreuse;
+} */
+[data-toggle="bolo"]{
+    color: gold;
+    background-color: maroon;
+}

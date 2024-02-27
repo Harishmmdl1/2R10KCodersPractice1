@@ -1,0 +1,158 @@
+*{
+    box-sizing: border-box;
+}
+#section1{
+    text-align: center;
+    margin: 10px 600px 10px 600px;
+    font-family: Nunito, sans-serif;
+    padding: 0 0 30px 0;
+}
+.s1_div1 h2{
+    margin-bottom: 6px;    
+    letter-spacing: 0.5 px;
+    color: #000;
+    line-height: 1.2;
+
+
+}
+.s1_div1 .blue{
+    color: #004ba8;
+    margin-top: 0;
+    font-size: 20px;
+}
+#section1 .s1_div2{
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 5px;
+    margin: 30px;
+}
+.s1_div2 .base{
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+.s1_div2 .course_name{
+    padding: 15px;
+}
+.course_name h4{
+    margin:  0 0 5px 0;
+    letter-spacing: 0.8px;
+    font-size: 17px;
+}
+.course_name small{
+    font-size: 80%;
+    font-size: 11px;
+}
+.s1_div2 .fee1, .fee2{
+    display: flex;
+    width: 100%;
+    padding: 12px 5px 12px 15px;    
+}
+.s1_div2 .fee2{
+    background-color: #f8f9fa!important;
+}
+
+.p_f, .p_j{
+    flex: 70%;
+    text-align: start;
+}
+.money1, .money2{
+    flex: 30%;
+    
+}
+.p_f p, .p_j p{
+    margin: 0 0 10px 0;        
+}
+.p_f p{    
+    color: #2f4744;
+}
+.p_j p{        
+    font-size: 1.2rem;
+}
+.p_f small{
+    font-size: 80%;
+    letter-spacing: 0.8px;
+    background-color: #f0fffa;
+    border-radius: 3px;
+}
+.fee1 .money1>h3{
+    margin: 0 0 6px 0;
+    color: #25c394;
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+.fee1 .money1 del{
+    margin: 0 0 10px 0;
+    color: rgba(128,128,128,.5);
+    font-size: 1rem;
+}
+.money2 h3{
+    margin: 0 0 6px 0;
+    padding-right: 26px;
+    color: #25c394;
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+.fee2 small{
+    font-size: 70%;
+    color: #6c757d!important;
+    letter-spacing: 0.6px;    
+}
+.s1_div3 h5{
+    color: #2f4744;
+    font-size: 14px;
+}
+.s1_div4 p{
+    color: #2f4744;
+    font-size: 15px;
+}
+.s1_div4 .join{
+    color: #fff !important;
+    margin: 0 130px 20px 130px;
+    background-color: #ff6d00 !important;
+    padding: 20px;
+    border-radius: 5px 5px;
+    letter-spacing: 1px;
+    box-shadow: 0 8px 40px 0 rgba(0, 0, 0, 0.37);
+  }
+.s1_div4 .get_i_get_job{
+    font-size: 11px;
+    font-weight: 600;
+    /* line-height: 0.2px; */
+    color: #212529;
+}
+#section2{
+    background: #fafbfc;
+    padding: 40px 0 40px 0;
+    font-family: Nunito, sans-serif;
+}
+.s2_div1{
+    text-align: center;
+}
+.s2_div1 h2{
+    margin : 0 0 10px 0;
+    line-height: 1.2;
+    color: #000;
+    font-weight: 600;   
+}
+.s2_div1 h3{
+    font-size: 21px;
+    line-height: 1.2;
+    margin: 0 0 20px 0;
+    color: #000;
+    font-weight: 600;
+}
+.s2_div2{
+    margin: 30px 330px 10px 330px;
+}
+.s2_div2 .questions{
+    font-size: 18px;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    color: #071e55;
+    line-height: 0.1;
+
+}
+.icon{
+    font-size: 17px;
+    color: #004ba8;
+    padding: 0 8px 0 0 ;
+
+
+}

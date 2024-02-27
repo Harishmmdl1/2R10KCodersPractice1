@@ -1,0 +1,65 @@
+/* div {
+  width: 200px;
+  height: 200px;
+  border: 2px solid rebeccapurple;
+  border-radius: 50%;
+  position: relative;
+  top: 50px;
+  left: 100px;
+  background-color: coral;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  animation-name: myanimate;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  animation: myanimate 4s ease-in-out 0.5s infinite alternate;
+}
+
+@keyframes myanimate {
+  0% {
+    background-color: blue;
+  }
+  50% {
+    background-color: darkred;
+    font-size: 25px;
+  }
+  to {
+    left: 400px;
+    background-color: greenyellow;
+    color: azure;
+    font-size: 15px;
+  }
+} */
+
+div{
+
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 10px solid #F9F9E0;
+    border-top: 10px solid #45FFCA ;
+    background-color: pink;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 50px;
+    left: 100px;
+    animation: spinanimate 1s ease-in-out 1s infinite alternate-reverse;
+}
+
+@keyframes spinanimate{
+    0%{
+        background-color: pink;
+        transform: rotate(0deg);
+    }
+    100%{
+        background-color: red;
+        transform: rotate(360deg);
+
+    }
+}

@@ -1,0 +1,23 @@
+/* .my_card{
+    height: 300px;
+    width: 300px;
+    background-color: green;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container-fluid{
+    background-color: bisque;
+} */
+.container{
+    background-color: rgb(127, 27, 27);
+} 
+.my_card{
+    height: 100px;
+    background-color: dodgerblue;
+    border: 2px solid black;
+}
+
+ 

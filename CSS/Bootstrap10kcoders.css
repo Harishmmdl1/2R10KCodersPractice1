@@ -1,0 +1,281 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header .navbar-nav .nav-link {
+  margin-right: 50px;
+}
+
+#banner {
+  background-color: #f3f3f5;
+}
+#banner .col-7 p {
+  margin-bottom: 30px;
+  line-height: 2.2rem;
+  font-weight: 400;
+  color: #405263;
+}
+.green {
+  color: #28a745;
+}
+#banner .col-7 h1 {
+  margin-bottom: 20px;
+}
+#banner .col-7 .btn,
+#engrip .col .btn,
+#why .col .btn,
+#admission .btn,
+#price .btn,
+#about .btn {
+  background-color: #ff6d00 !important;
+  color: #fff !important;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 600;
+  padding: 20px 40px;
+  box-shadow: 0 8px 40px 0 rgba(0, 0, 0, 0.37);
+}
+#banner .col-7 small,
+#engrip .col small,
+#why .col small,
+#admission .row small,
+#price .row small,
+#about .row small {
+  margin-top: 15px;
+  font-size: 0.7rem;
+  display: block;
+  font-weight: 700;
+}
+#is-this-you {
+  padding: 80px 0 70px 0;
+  background-color: #fafbfc;
+}
+#is-this-you .list-group-item {
+  line-height: 1.75rem;
+  background-color: #fafbfc;
+}
+.underlined {
+  text-decoration: underline;
+}
+.blue {
+  color: #004ba8;
+}
+#engrip {
+  margin: 60px 0 40px 0;
+}
+h3 {
+  font-size: 1.6rem;
+}
+p {
+  line-height: 1.75rem;
+}
+#why {
+  background: #fafbfc;
+  padding: 50px 0 50px 0;
+  border-bottom: 1px solid #efefef;
+}
+#why .col-4 p {
+  color: #7c8595;
+  font-size: 0.85rem;
+}
+#why .row h4 {
+  font-size: 1.2rem;
+}
+.icon {
+  font-size: 40px;
+  padding-bottom: 10px;
+  color: #004ba8;
+}
+#curriculum,
+#price {
+  margin: 60px 0 50px 0;
+}
+
+#curriculum .col-3 {
+  background-color: #f8fdfd !important;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  padding: 1.25rem;
+}
+#team {
+  background: #fafbfc;
+  padding: 50px 0 50px 0;
+  border-top: 1px solid #efefef;
+  border-bottom: 1px solid #efefef;
+}
+
+#team .instructor_name {
+  text-align: left;
+  color: #004ba8;
+  font-size: 1.125rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+#team .instructor_name span {
+  color: #2f4744;
+}
+
+#team .instructor_quote {
+  text-align: left;
+  color: #2f4744;
+  line-height: 30px;
+  position: relative;
+}
+#team .instructor_img {
+  border-radius: 50%;
+  height: 230px;
+  width: 230px;
+}
+#team .anil {
+  background: #ffffff url(../accets/Images/Anil.webp);
+  background-size: cover;
+}
+#team .praveen {
+  background: #ffffff url(../accets/Images/Praveen.webp);
+  background-size: cover;
+}
+#team .pavan {
+  background: #ffffff url(../accets/Images/Pavan.webp);
+  background-size: cover;
+}
+#employers .comp_logo {
+  width: 100px;
+  height: 100px;
+  margin-right: 100px;
+}
+p {
+  font-size: 1rem;
+  line-height: 1.75rem;
+  font-weight: 400;
+  color: #2f4744;
+  margin-bottom: 15px;
+}
+b {
+  font-weight: bold;
+}
+
+#admission {
+  background-color: #fafbfc;
+  padding: 50px 0 50px 0;
+  border-top: 1px solid #efefef;
+}
+#admission .no {
+  color: #004ba8;
+  border: 1px solid #004ba8;
+  border-radius: 50%;
+  padding: 5px 8px 5px 8px;
+}
+
+#admission .icon {
+  color: #004ba8;
+  font-size: 50px;
+  padding: 10px 0 5px 0;
+}
+#admission .col-3 {
+  width: 370px;
+}
+li {
+  list-style-type: none;
+}
+
+#price .price-title {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #071e55;
+}
+
+#price .price-name small,
+#price .pay-just small {
+  color: #6c757d !important;
+  font-size: 80% !important;
+  font-weight: 400 !important;
+}
+#price .discount-label {
+  color: #6c757d !important;
+  background-color: #f0fffa;
+  border-radius: 3px;
+  display: inline-block;
+  letter-spacing: 1px;
+  line-height: 1;
+  font-size: 80%;
+  font-weight: 400;
+}
+
+#price .money {
+  color: #25c394;
+  font-size: 25px;
+}
+#price .money2 {
+  color: #25c394;
+  font-size: 25px;
+}
+#price .discount-money {
+  color: rgba(128, 128, 128, 0.5);
+  font-size: 1rem !important;
+  text-decoration: line-through;
+  font-weight: 600 !important;
+  padding-left: 8px;
+  margin-top: 2px !important ;
+}
+#faq {
+  padding: 50px 0 50px 0;
+  background-color: #fafbfc !important;
+}
+#about {
+  padding: 60px 0 60px 0;
+  background-color: #edf8f4;
+}
+#footer {
+  background-color: #2f4744;
+  padding: 40px;
+}
+#footer a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 2rem;
+  font-weight: bold;
+}
+#footer i {
+  color: #fff;
+  font-size: 2rem;
+}
+#footer .copyrights {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: bold;
+}
+.icon2 {
+  color: #28a745;
+  padding-right: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+header .navbar {
+  position: fixed !important;
+  width: 100%;
+  top: 0px;
+  z-index: 2;
+}
+#is-this-you ul li::before {
+  display: inline-block;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+#is-this-you ul li::before {
+  font: var(--fa-font-solid);
+  content: "\f068";
+  color: #004ba8;
+}
+.message-box i{
+  position: fixed;
+  padding: 20px;
+  font-size: 50px;
+  color: white;
+  background-color: #0066cc;
+  bottom: 100px;
+  right: 100px;
+  cursor: pointer;
+
+}

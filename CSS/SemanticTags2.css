@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  background: #fafbfc;
+  padding: 50px 100px 50px 100px;
+  font-family: Nunito, sans-serif;
+  border-bottom: 1px solid #efefef;
+  align-items: center;
+  text-align: center;
+}
+.section-title {
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  line-height: 1.2;
+  color: #000;
+  font-weight: 600;
+  text-align: center !important;
+}
+.row {
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: center;
+  padding: 50px 300px 10px 300px;
+}
+.advantages-list {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  list-style: none;
+  list-style-image: none;
+  margin: 0;
+  padding: 0;
+  color: #004ba8;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-bottom: 20px;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.col-ad {
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%;
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  /* padding: 10px 500px 10px 500px; */
+}
+.mt {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  margin-top: 0.5rem !important;
+  color: #000;
+  font-weight: 600;
+  line-height: 1.2;
+}
+.adv-p {
+  color: #7c8595;
+  font-size: 0.85rem;
+  line-height: 1.75rem;
+  font-weight: 400;
+  padding: 10px 0px 60px 0;
+}
+.ar-in {
+  font-size: 1rem;
+  line-height: 1.75rem;
+  font-weight: 400;
+  color: #2f4744;
+  margin-bottom: 15px;
+}
+.join {
+  color: #fff !important;
+  background-color: #ff6d00 !important;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 20px 30px;
+  display: inline-block;
+  font-family: Nunito, sans-serif;
+  border-radius: 5px 5px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  font-weight: 550;
+  box-shadow: 0 8px 40px 0 rgba(0, 0, 0, 0.37);
+}
+.so-job {
+  margin-top: 15px;
+  font-size: 0.7rem;
+  display: inline-block;
+  font-weight: 600;
+  font-family: Nunito, sans-serif;
+}
+.icon {
+  font-size: 40px;
+  padding-bottom: 10px;
+  font-weight: normal;
+}
+#container2 {
+  padding: 20px 250px 20px 250px;
+  font-family: Nunito, sans-serif;
+  line-height: 1.75rem;
+}
+.Curriculum_head {
+  margin-top: 50px !important;
+  text-align: center !important;
+}
+#C_H_title_Para {
+  font-size: 20px;
+  font-weight: 400;
+  color: #2f4744;
+  margin-bottom: 15px;
+}
+.C_div_1 {
+  display: flex;
+  padding: 20px 60px 30px 60px;
+  margin-top: 3rem !important;
+  /* max-width: 33.333333%; */
+  /* flex-wrap: nowrap;
+  justify-content: space-around; */
+  align-items: flex-start;
+}
+.card_body {
+  padding: 1.25rem;
+  /* flex: 1 1 auto; */
+  background-color: #f8fdfd !important;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  margin-right: 40px;
+  text-align: center;
+  /* align-items: flex-start;
+  width: 380px;
+  height: 300px; */
+}
+.green {
+  color: #28a745;
+}
+.b_card-title {
+  color: #004ba8;
+  margin-bottom: 0.75rem;
+  font-size: 1.4rem;
+}
+.mt2 {
+  margin-top: 0.5rem !important;
+  font-size: 1rem;
+  line-height: 1.75rem;
+  font-weight: 400;
+  color: #2f4744;
+  margin-bottom: 15px;
+}
